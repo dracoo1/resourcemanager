@@ -45,8 +45,6 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  void _FindTexts() {}
-
   Widget _sideBar() {
     return Drawer(
         child: ListView(
@@ -61,8 +59,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
-List testString = ["a", "a", "b", "c"];
+void _openFile() {}
 
+void _createFile() {}
+
+void _deleteFile() {}
+
+void _saveFile() {}
+
+//This is the file structure for saves
+//0-FileName 1-Text
 List testString2 = [
   ["a", "aaaaaa"],
   ["b", "bbbbbb"]
